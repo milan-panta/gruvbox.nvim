@@ -1,0 +1,7 @@
+# Gruvbox for Ghostty
+# Use with Ghostty's built-in "Gruvbox Dark Hard" theme.
+# This overrides the background to match our bg_main (#1b1b1b).
+#
+# Usage: copy to ~/.config/ghostty/config or source it
+
+background = #1b1b1b
