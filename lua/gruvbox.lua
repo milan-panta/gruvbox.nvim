@@ -116,11 +116,11 @@ local function set_highlights()
 		DiagnosticUnderlineInfo = { sp = groups.info, undercurl = true },
 		DiagnosticUnderlineOk = { sp = groups.ok, undercurl = true },
 		DiagnosticUnderlineWarn = { sp = groups.warn, undercurl = true },
-		DiagnosticVirtualTextError = { fg = groups.error, bg = groups.error, blend = 10 },
-		DiagnosticVirtualTextHint = { fg = groups.hint, bg = groups.hint, blend = 10 },
-		DiagnosticVirtualTextInfo = { fg = groups.info, bg = groups.info, blend = 10 },
-		DiagnosticVirtualTextOk = { fg = groups.ok, bg = groups.ok, blend = 10 },
-		DiagnosticVirtualTextWarn = { fg = groups.warn, bg = groups.warn, blend = 10 },
+		DiagnosticVirtualTextError = { fg = groups.error },
+		DiagnosticVirtualTextHint = { fg = groups.hint },
+		DiagnosticVirtualTextInfo = { fg = groups.info },
+		DiagnosticVirtualTextOk = { fg = groups.ok },
+		DiagnosticVirtualTextWarn = { fg = groups.warn },
 
 		-- Syntax
 		Boolean = { fg = palette.orange_lite },
@@ -1237,12 +1237,6 @@ local function set_highlights()
 	}
 
 	local transparency_highlights = {
-		DiagnosticVirtualTextError = { fg = groups.error },
-		DiagnosticVirtualTextHint = { fg = groups.hint },
-		DiagnosticVirtualTextInfo = { fg = groups.info },
-		DiagnosticVirtualTextOk = { fg = groups.ok },
-		DiagnosticVirtualTextWarn = { fg = groups.warn },
-
 		FloatBorder = utilities.make_border(palette.fg4, config, palette, styles),
 		FloatTitle = { fg = palette.aqua_lite, bg = palette.none, bold = styles.bold },
 		Folded = { fg = palette.fg, bg = palette.none },
