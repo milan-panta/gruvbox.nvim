@@ -43,12 +43,12 @@ config.options = {
 		git_text = "yellow_lite",
 		git_untracked = "bg2",
 
-		h1 = "red_dark",
-		h2 = "yellow_dark",
-		h3 = "green_dark",
-		h4 = "aqua_dark",
-		h5 = "blue_dark",
-		h6 = "purple_dark",
+		h1 = "red_lite",
+		h2 = "yellow_lite",
+		h3 = "green_lite",
+		h4 = "aqua_lite",
+		h5 = "blue_lite",
+		h6 = "purple_lite",
 	},
 
 	---@type table<string, table>
